@@ -1,0 +1,179 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   background-repeat: no-repeat;
+   text-decoration: none;
+
+}
+
+body{
+    background-image: url(../image/Rectangle\ 1.png);
+    background-size: 100%;
+    padding: 50px;
+
+}
+
+header{
+    width: 800px;
+    height: 70px;
+   
+    margin-left: 585px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    padding: 30px;
+    
+    background-color: gray;
+    border-radius: 0px 35px;
+    color: black;
+    margin-right: 80px;
+}
+
+a:hover{
+    background-color: rgb(105, 158, 105);
+    color: white;
+}
+
+.akcia{
+    width: 389px;
+    height: 150px;
+    position: relative;
+    margin-left: 750px;
+    margin-top: 93px;
+    
+
+
+}
+
+.dasruleba{
+    width: 325px;
+    height: 24px;
+    font-size: 18px;
+    margin-top: 36px;
+    margin-left: 33px;
+}
+.time{
+    width: 230px;
+    height: 47px;
+    font-size: 36px;
+    margin-top: 21px;
+    margin-left: 80px;
+}
+.akcia .wre{
+width: 22px;
+height: 22px;
+border-radius: 50%;
+background-color:rgb(105, 158, 105);
+animation:triali 2s infinite;
+position: absolute;
+bottom: 0px;
+
+
+
+
+}
+@keyframes triali{
+    0%{bottom: 0px;left: 0px;}
+    25%{bottom: 138px;left:0px;}
+    50%{bottom: 138px;left: 350px;}
+    75%{bottom: 0px;left: 350px;}
+    100%{bottom: 0px;left:0px}
+ 
+  
+}
+
+.mtavari{
+    width: 1140px;
+    height: 280px;
+   
+    margin-top: 270px;
+    margin-left: 170px;
+    position: relative;
+}
+
+.box{
+    width: 590px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.box1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    position: absolute;
+    top: 70px;
+    left: 590px;
+    display: flex;
+    justify-content: space-between;
+}
+.box3{
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box4{
+    position: absolute;
+    top: 210px;
+    left: 590px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.p1{
+    color: rgb(102, 98, 98);
+    font-size: 16px;
+    width: 519px;
+    height: 70px;
+   
+}
+.p1:hover{
+    color:  rgb(105, 158, 105);
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(102, 98, 98);
+    border-radius: 0 35px;
+    
+    
+}
+.fotoli2{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(102, 98, 98);
+    border-radius: 0 35px;
+    transform: rotate(90deg);
+    
+}
+.fotoli:hover{
+background-color:  rgb(105, 158, 105);;
+}
+.fotoli2:hover{
+ background-color: rgb(105, 158, 105);
+ ;
+
+} 
+.xazi{
+    width: 1px;
+    height: 210px;
+    background-color: black;
+    position: absolute;
+    top: 68px;
+    left:590px;
+
+
+}
