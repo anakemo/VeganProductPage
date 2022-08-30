@@ -3,62 +3,84 @@
    margin: 0px;
    box-sizing: border-box;
    background-repeat: no-repeat;
+   list-style-type: none;
    text-decoration: none;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
 body{
     background-image: url(../image/Rectangle\ 1.png);
-    background-size: 100%;
-    padding: 50px;
+    background: size 100%;
+    background-position: center;
+    padding: 30px;
 
 }
 
 header{
-    width: 800px;
-    height: 70px;
-   
-    margin-left: 585px;
-    display: flex;
-    justify-content: space-between;
+    width: 70%;
+    margin-left: 35%;
     
 }
 
-a{
+header a{
     padding: 30px;
-    
-    background-color: gray;
+    background-color: rgb(190, 185, 185);
     border-radius: 0px 35px;
     color: black;
     margin-right: 80px;
 }
 
-a:hover{
+header a:hover{
     background-color: rgb(105, 158, 105);
     color: white;
+    box-shadow: 0 0 10px rgb(105, 158, 105);
+}
+
+.burger{
+    width: 41px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: none;
+    
+    
+}
+
+.bur1{
+    width: 41px;
+    height: 1px;
+    background-color: black;
+    margin-top: 5px;
+    
+}
+main{
+    padding: 20px;
 }
 
 .akcia{
     width: 389px;
     height: 150px;
     position: relative;
-    margin-left: 750px;
-    margin-top: 93px;
+    margin-left: 40%;
+    margin-top: 10%;
     
-
-
 }
 
 .dasruleba{
     width: 325px;
-    height: 24px;
     font-size: 18px;
     margin-top: 36px;
     margin-left: 33px;
 }
 .time{
     width: 230px;
-    height: 47px;
     font-size: 36px;
     margin-top: 21px;
     margin-left: 80px;
@@ -71,11 +93,8 @@ background-color:rgb(105, 158, 105);
 animation:triali 2s infinite;
 position: absolute;
 bottom: 0px;
-
-
-
-
 }
+
 @keyframes triali{
     0%{bottom: 0px;left: 0px;}
     25%{bottom: 138px;left:0px;}
@@ -89,15 +108,13 @@ bottom: 0px;
 .mtavari{
     width: 1140px;
     height: 280px;
-   
-    margin-top: 270px;
-    margin-left: 170px;
-    position: relative;
+   margin-top: 14%;
+   margin-left: 24%;
+  position: relative;
 }
 
 .box{
-    width: 590px;
-    height: 70px;
+    width: 48%;
     display: flex;
     justify-content: flex-start;
     
@@ -107,37 +124,31 @@ bottom: 0px;
     position: absolute;
     top: 0px;
     left: 0px;
-    display: flex;
-    justify-content: space-between;
+    
 }
 .box2{
     position: absolute;
     top: 70px;
     left: 590px;
-    display: flex;
-    justify-content: space-between;
+    
 }
 .box3{
     position: absolute;
     top: 140px;
     left: 0px;
-    display: flex;
-    justify-content: space-between;
-
+    
 }
 .box4{
     position: absolute;
     top: 210px;
     left: 590px;
-    display: flex;
-    justify-content: space-between;
-
+    
 }
 .p1{
-    color: rgb(102, 98, 98);
+    color: rgb(190, 185, 185);
     font-size: 16px;
     width: 519px;
-    height: 70px;
+    
    
 }
 .p1:hover{
@@ -146,27 +157,20 @@ bottom: 0px;
 .fotoli{
     width: 70px;
     height: 70px;
-    background-color: rgb(102, 98, 98);
+    background-color: rgb(190, 185, 185); 
     border-radius: 0 35px;
     
     
 }
 .fotoli2{
-    width: 70px;
-    height: 70px;
-    background-color: rgb(102, 98, 98);
-    border-radius: 0 35px;
+
     transform: rotate(90deg);
     
 }
 .fotoli:hover{
-background-color:  rgb(105, 158, 105);;
+background-color:  rgb(105, 158, 105);
 }
-.fotoli2:hover{
- background-color: rgb(105, 158, 105);
- ;
 
-} 
 .xazi{
     width: 1px;
     height: 210px;
@@ -177,3 +181,641 @@ background-color:  rgb(105, 158, 105);;
 
 
 }
+
+
+/* meore gverdi */
+
+
+
+.gvestumret{
+    font-size: 24px;
+    margin-top: 100px;
+   margin-left: 50%;
+ 
+
+}
+
+.filialebi{
+    width: 500px;
+    margin-top: 58px;
+    margin-left: 48%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.filaili{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(190, 185, 185);
+    margin: 20px;
+    background-image: url(../image/shop\ \(1\)\ 2.png);
+    background-size: 70px, 70px;
+    background-position: center;
+    color: rgb(190, 185, 185);
+    
+}
+
+.misamarti1{
+    margin-top: 130px;
+    margin-left: 70px;
+}
+
+.misamarti2{
+    margin-top: 3px;
+    margin-left: 55px;
+
+}
+.placeholder{
+    width: 0px;
+    height: 0px;
+    margin-top: 5px;
+    margin-left: 95px;
+    background-image: url(../image/placeholder\ 1.png);
+    background-size: 100%;
+}
+
+
+.filaili:hover{
+    background-image: url(../image/shop\ 1.png);
+    background-color: rgb(105, 158, 105);
+    box-shadow: 0 0 15px rgb(105, 158, 105);
+    
+}
+.filaili:hover .placeholder{
+    width: 15px;
+    height: 15px;
+
+}
+
+
+
+.sheidzinetprodukcia{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-bottom: 20px;
+   
+}
+
+.kompiuteri{
+   width: 420px;
+   height: 70px;
+   margin-left: 50%;
+   background-color: rgb(190, 185, 185);
+   background-image: url(../image/laptop\ 1.png);
+    background-position: center;
+}
+.kompiuteri:hover{
+  background-color:  rgb(105, 158, 105);
+  box-shadow: 0 0 15px rgb(105, 158, 105);
+}
+
+             /* mesame gverdi */
+
+
+
+.shopcontainer{
+    width:660px;
+    margin-top: 250px;
+    margin-left: 40%;
+   
+}
+
+.shopbox{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(190, 185, 185);
+    background-size: 70px 70px;
+    background-position: center;
+}
+.shopbox1{
+    background-image: url(../image/biodegradable\ 1.png);
+    
+}
+.shopbox2{
+    background-image: url(../image/detox\ 1.png);
+}
+.shopbox3{
+    background-image: url(../image/detox\ 1.png);
+}
+.shopbox4{
+    background-image: url(../image/cereal\ 1.png);
+
+}
+
+.shopbox5{
+    background-image: url(../image/salad\ 1.png);
+}
+.shopbox6{
+    background-image: url(../image/vitamin\ 1.png);
+}
+
+.shopcontainer p{
+    margin-top: 80%;
+   font-size: 18px;
+   color:rgb(190, 185, 185);
+   
+}
+
+.shopbox:hover{
+    color: white;
+    background-color:rgb(105, 158, 105);
+    box-shadow: 0 0 15px rgb(105, 158, 105);
+}
+.shopbox1:hover{
+    background-image: url(../image/biodegradable\ \(1\)\ 1.png);
+}
+.shopbox2:hover{
+    background-image: url(../image/detox\ \(1\)\ 1.png);
+}
+.shopbox3:hover{
+    background-image: url(../image/keto\ \(1\)\ 1.png);
+}
+.shopbox4:hover{
+    background-image: url(../image/cereal\ \(1\)\ 1.png);
+
+}
+.shopbox5:hover{
+    background-image: url(../image/salad\ \(1\)\ 1.png);
+}
+.shopbox6:hover{
+    background-image: url(../image/vitamin\ \(1\)\ 1.png);
+}
+
+
+
+                         /* meotxe gverdi */
+
+main ul{
+   width: 110px;
+   position: absolute;
+   top:130px;
+   right: 0px;
+   display:grid;
+   
+   
+}
+
+
+
+main ul a{
+    display: block;
+    padding: 15px 5px;
+    color: black;
+    margin-top: 10px;
+    border-radius: 0 35%;
+}
+.meoremenu{
+    border-left: 2px solid black;
+}
+.yuti1{
+    margin-top: 9%;
+    margin-left: 22%;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    
+    
+    
+    
+}
+.biosakvebiyuti{
+    width: 270px;
+    height: 280px;
+    padding: 10px;
+    margin: 15px;
+    background-image: url(../image/5902175869725-1\ 1.png);
+    background-size: 220px;
+    background-position: center;
+   
+    
+}
+.biosakvebiyuti p{
+   display: block;
+   margin: 170px auto;
+   text-align: center;
+   
+   
+
+}
+.plius{
+    margin-top: 0px;
+    margin-left: 95%;
+    width: 50px;
+    height: 50px;
+    background-image: url(../image/add\ 1.png);
+
+}
+
+.vrclad{
+    background-color:  rgb(190, 185, 185);
+    border-radius: 0 35%;
+   
+
+}
+.dzvelifasi{
+    text-decoration: line-through;
+}
+
+.biosakvebiyuti:hover{
+    background-color: rgb(105, 158, 105);
+    box-shadow: 0 0 15px rgb(105, 158, 105);
+}
+.biosakvebiyuti:hover .vrclad{
+    background-color: rgb(105, 158, 105);
+
+    
+}
+main a:hover{
+    background-color: rgb(105, 158, 105);
+    box-shadow: 0 0 15px rgb(105, 158, 105); ;
+}
+
+
+
+
+
+
+
+
+     /* for iphode pro */
+
+
+
+     @media only screen and (max-width: 1024px) {
+        header{
+            margin-left: 15%;
+
+        }
+        header a{
+            margin-right: 50px;
+        }
+        main{
+            background-size: 120%;
+            overflow: hidden;
+        }
+        .mtavari{
+            width: 700px;
+           margin-top: 100px;
+           margin-left: 240px;
+           
+          
+        }
+        .box{
+            width: 48%;
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+        
+        .box1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            
+        }
+        .box2{
+            position: absolute;
+            top: 70px;
+            left:0px;
+            
+        }
+        .box3{
+            position: absolute;
+            top: 140px;
+            left: 0px;
+            
+        }
+        .box4{
+            position: absolute;
+            top: 210px;
+            left:0px;
+        }
+        .fotoli{
+            position: absolute;
+            right:-5%;
+            transform: rotate(90deg);
+        }
+        .xazi{
+            position: absolute;
+            right:0%;
+        }
+
+        /* mesame gverdi */
+        
+       
+    body{
+        padding:0%;
+        
+    }
+   
+    .shopcontainer{
+        width: 440px;
+        margin-top: 300px;
+        margin-left: 40%;
+        margin-right: 5%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    main ul{
+        width: 110px;
+        position: absolute;
+        top:130px;
+        right: 0px;
+        display:grid;
+        
+        
+     }
+
+     /* meotxe gverdi */
+     
+     
+     
+     main ul a{
+         display:block;
+         padding: 15px 5px;
+         color: black;
+         margin-top: 10px;
+         border-radius: 0 35%;
+     }
+     main ul{
+        width: 610px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        align-items: center;
+        
+       
+     }
+     .meoremenu{
+         
+        border-bottom:  2px solid black;
+        border-left: none;
+
+     }
+    
+
+
+    /* for iphone 11 pro max
+             */
+        
+
+             @media only screen and (max-width:414px) {
+                
+                
+                
+                header ul{
+                    display: none;
+                }
+                body{
+                    padding:0%;
+                    
+                }
+                .burger{
+                    display: block;
+                }
+                .akcia{
+                    width: 200px;
+                    height: 150px;
+                    position: relative;
+                    margin-left: 10%;
+                    margin-top: 10%;
+                    
+                }
+                @keyframes triali{
+                    0%{bottom: 0px;left: 0px;}
+                    25%{bottom: 138px;left:0px;}
+                    50%{bottom: 138px;left: 290px;}
+                    75%{bottom: 0px;left: 290px;}
+                    100%{bottom: 0px;left:0px}
+                 
+                  
+                }
+                .mtavari{
+                    width: 280px;
+                    height: 280px;
+                   margin-top: 14%;
+                   margin-left: 5%;
+                  position: relative;
+                }
+                
+                .box{
+                    width: 80%;
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 20px;
+                    
+                }
+                
+                .box1{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    
+                }
+                .box2{
+                    position: absolute;
+                    top: 70px;
+                    left: 0px;
+                    
+                }
+                .box3{
+                    position: absolute;
+                    top: 140px;
+                    left: 0px;
+                    
+                }
+                .box4{
+                    position: absolute;
+                    top: 210px;
+                    left: 0px;
+                    
+                }
+                .p1{
+                    color: rgb(190, 185, 185);
+                    font-size: 18px;
+                    width: 360px;
+                    
+                   
+                }
+                .fotoli{
+                    width: 50px;
+                    height: 50px;
+                 
+                }
+                
+        /* meore gverdi */
+        
+        .gvestumret{
+            font-size: 24px;
+            margin-top: 30px;
+           margin-left: 20%;
+         
+        
+        }
+        
+        .filialebi{
+            width: 250px;
+            margin-top: 10px;
+            margin-left: 20%;
+            display: flex;
+            flex-wrap: wrap;
+          
+        }
+        
+        .filaili{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(190, 185, 185);
+            margin: 5px;
+            background-image: url(../image/shop\ \(1\)\ 2.png);
+            background-size: 70px, 70px;
+            background-position: center;
+            color: rgb(190, 185, 185);
+            
+        }
+        
+        .misamarti1{
+            margin-top: 90px;
+            margin-left: 70px;
+        }
+        
+        .misamarti2{
+            margin-top: 3px;
+            margin-left: 55px;
+        
+        }
+        .placeholder{
+            width: 0px;
+            height: 0px;
+            margin-top: 5px;
+            margin-left: 95px;
+            background-image: url(../image/placeholder\ 1.png);
+            background-size: 100%;
+        }
+        
+        
+    
+        
+        .sheidzinetprodukcia{
+            font-size: 18px;
+            margin-top: 10px;
+            margin-left: 20%;
+            margin-bottom: 10px;
+           
+        }
+        
+        .kompiuteri{
+           width: 420px;
+           height: 70px;
+           margin-left: 20%;
+        }
+        .burger{
+           
+            display:block
+            
+        
+        }
+        /* mesame gverdi */
+       
+       
+       header ul{
+        display: none;
+        background-attachment: fixed;
+    }
+    body{
+        padding:0%;
+        
+    }
+    .burger{
+        display: block;
+    }
+    .shopcontainer{
+        width: 210px;
+        margin-top: 20px;
+        margin-left: 40%;
+        margin-right: 5%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .shopbox{
+        width: 140px;
+        height: 140px;
+        margin: 5px;
+        padding: 20px;
+    }
+   
+    /* meotxe gverdi */
+    
+    main ul a{
+        display:block;
+        padding: 5px 5px;
+        color: black;
+        margin-top: 0%;
+        border-bottom: 1px solid black;
+        border-radius: 0;
+       
+       
+
+    }
+    main ul{
+       width: 414px;
+       margin-top: 0%;
+       display: list-item;
+       
+      
+    }
+    
+      
+    
+     
+     .yuti1{
+         margin-top: 200px;
+         margin-left: 22%;
+         display: flex;
+         flex-wrap:wrap-reverse;
+         
+         
+         
+         
+     }
+     .biosakvebiyuti{
+         width: 270px;
+         height: 220px;
+         padding: 10px;
+         margin: 5px;
+         background-image: url(../image/5902175869725-1\ 1.png);
+         background-size: 200px;
+         background-position: center;
+        
+         
+     }
+     .biosakvebiyuti p{
+        display: block;
+        margin: 170px auto;
+        text-align: center;
+        
+        
+     
+     }
+     .plius{
+         margin-top: 0px;
+         margin-left: 95%;
+         width: 20px;
+         height: 20px;
+         background-image: url(../image/add\ 1.png);
+         background-size: 100%;
+     
+     }
+     
+    
+        
+       
+
+        
+
+              
